@@ -71,7 +71,7 @@ const Layout = ({
 
       <Container as="main">{children}</Container>
 
-      <Row as="footer">
+      <  as="footer">
         <Text as="span">&copy; {new Date().getFullYear()} Jeff Modell</Text>
         <ul style={{ display: "flex" }}>
           <li style={{ marginRight: "1rem" }}>
@@ -85,7 +85,7 @@ const Layout = ({
             </a>
           </li>
         </ul>
-      </Row>
+      </>
     </Container>
   );
 };
